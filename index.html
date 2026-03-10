@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erlyn Ascarate</title>
+    <meta name="description" content="Explore the courses I’ve completed and the ones I’m currently learning. Follow my journey of continuous learning, skill development, and professional growth">
+    <meta name="author" content="Erlyn Ascarate">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/home.svg" alt="Site Logo">
+        <span>Erlyn Ascarate</span>
+        <button id="ham-btn" class="hamburger" title="Menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>My name is Erlyn, I'm 20 and I'm from Piura, Peru. I'm a software development student at BYU-Idaho and I'm learning japanes. I have an issue, I'd like to learn Golang because I want to have its features in my proyects but it implies learning backend and I know little of backend. And I guess that I'll learn it by my-self because throuth BYU-Pathway Worldwide I won't learn Go. So I think I'll use Go Developer Roadmap to have a guide and also I'll use YouTube videos and Github Education to learn Go</p>
+        </section>
+        <section class="student-photo">
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="Erlyn's logo" width="460" height="460">
+        </section>
+        <section class="courses-section">
+            <h2>Web Certificate Courses</h2>
+            <button id="all">All</button>
+            <button id="cse">CSE</button>
+            <button id="wdd">WDD</button>
+            <div id="courses">
+                
+            </div>
+            <p>The total credits for course listed above is <span id="totalCredits"></span></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/erlynascarate" target="_blank">
+                <img src="images/github.svg" alt="Erlyn Ascarate's GitHub" width="16" height="16">
+            </a>
+            <a href="https://www.linkedin.com/in/erlynascarate/" target="_blank">
+                <img src="images/linkedin.svg" alt="Erlyn Ascarate's LinkedIn profile" width="16" height="16">
+            </a>
+            <a href="https://twitter.com/erlynascarate" target="_blank">
+                <img src="images/x.svg" alt="Erlyn Ascarate's X" width="16" height="16">
+            </a>
+        </div>
+        <p id="currentyear"></p>
+        <p id="lastModified">Last Modified</p>
+    </footer>
+</body>
+</html>

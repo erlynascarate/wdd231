@@ -1,0 +1,166 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+img  {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    column-gap: 8px;
+    align-items: end;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0 5px 10px;
+}
+
+header img {
+    display: block;
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #3d405b;
+}
+
+.hamburger {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+    color: #3d405b;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00d7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li.current {
+    background-color: #eee;
+}
+
+.navigation a {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: .8rem 10px;
+    color: #3d405b;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #e07a5f;
+}
+
+main {
+    padding: 0 10px;
+}
+
+section h2 {
+    padding: 8px;
+    color: #fff;
+    background-color: #3d405b;
+    text-align: center;
+}
+
+section img {
+    margin: 0 auto;
+}
+
+.courses-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    text-align: center;
+}
+
+#courses {
+    display: grid;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+@media (min-width: 28rem) {
+    #courses {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#courses div {
+    padding: 8px;
+    color: #fff;
+    background-color: #3d405b;
+}
+
+#courses div::before {
+    content: "❌";
+    margin-right: 4px;
+}
+
+#courses div.completed {
+    color: #393939;
+    background-color: #5ce0ca;
+}
+
+#courses div.completed::before {
+    content: "✅";
+    margin-right: 4px;
+}
+
+.courses-section h2,
+#courses,
+.courses-section p {
+    grid-column: 1 / -1;
+}
+
+footer {
+    padding: 1rem 10px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    padding: 11px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}
+
+.social img {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
