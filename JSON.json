@@ -1,0 +1,38 @@
+{
+    "surname": "Myers",
+    "moved-ward": 2020,
+    "family": 6,
+    "visited": false,
+    "family-member": [
+        {
+            "name": "Emma",
+            "gender": "female",
+            "birthdate": "april 2, 2002"
+        },
+        {
+            "name": "Jeremy",
+            "gender": "male",
+            "birthdate": "february 1972"
+        },
+        {
+            "name": "Nicole",
+            "gender": "female",
+            "birthdate": "july 20, 1973"
+        },
+        {
+            "name": "Avery",
+            "gender": "female",
+            "birthdate": "november 11, 1998"
+        },
+        {
+            "name": "Isabel",
+            "gender": "female",
+            "birthdate": "february 21, 2005"
+        },
+        {
+            "name": "Olivia",
+            "gender": "female",
+            "birthdate": "2007"
+        }
+    ]
+}
