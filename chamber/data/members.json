@@ -3,6 +3,7 @@
     "companyName": "Andes Tech Solutions",
     "address": "123 Innovation Ave, Lima, Peru",
     "phone": "+51 1 4567890",
+    "email": "contact@andestechsolutions.com",
     "website": "https://www.andestechsolutions.com",
     "image": "images/andes-tech-solutions.webp",
     "membershipLevel": 3
@@ -11,6 +12,7 @@
     "companyName": "Pacific Green Energy",
     "address": "455 Solar Park Rd, Piura, Peru",
     "phone": "+51 73 345678",
+    "email": "info@pacificgreenenergy.pe",
     "website": "https://www.pacificgreenenergy.pe",
     "image": "images/pacific-green-energy.webp",
     "membershipLevel": 2
@@ -19,6 +21,7 @@
     "companyName": "Inca Logistics Group",
     "address": "789 Transport Blvd, Cusco, Peru",
     "phone": "+51 84 234567",
+    "email": "support@incalogisticsgroup.com",
     "website": "https://www.incalogisticsgroup.com",
     "image": "images/inca-logistics-group.webp",
     "membershipLevel": 1
@@ -27,6 +30,7 @@
     "companyName": "Amazonia Foods Export",
     "address": "321 Harvest Lane, Iquitos, Peru",
     "phone": "+51 65 567890",
+    "email": "sales@amazoniafoodsexport.com",
     "website": "https://www.amazoniafoodsexport.com",
     "image": "images/amazonia-foods-export.webp",
     "membershipLevel": 3
@@ -35,6 +39,7 @@
     "companyName": "Summit Construction Co.",
     "address": "98 Builder St, Arequipa, Peru",
     "phone": "+51 54 765432",
+    "email": "hello@summitconstruction.pe",
     "website": "https://www.summitconstruction.pe",
     "image": "images/summit-construction-co.webp",
     "membershipLevel": 2
@@ -43,6 +48,7 @@
     "companyName": "BlueWave Digital Marketing",
     "address": "150 Media Plaza, Trujillo, Peru",
     "phone": "+51 44 112233",
+    "email": "team@bluewavedigitalmarketing.com",
     "website": "https://www.bluewavedigitalmarketing.com",
     "image": "images/bluewave-digital-marketing.webp",
     "membershipLevel": 1
@@ -51,6 +57,7 @@
     "companyName": "Andean Adventure Travel",
     "address": "77 Explorer Way, Huaraz, Peru",
     "phone": "+51 43 998877",
+    "email": "bookings@andeanadventuretravel.com",
     "website": "https://www.andeanadventuretravel.com",
     "image": "images/andean-adventure-travel.webp",
     "membershipLevel": 3

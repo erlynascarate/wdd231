@@ -7,7 +7,8 @@ function renderMembers(members) {
             phone,
             website,
             image,
-            membershipLevel } = member
+            membershipLevel 
+        } = member
 
         let mLevel = ""
 

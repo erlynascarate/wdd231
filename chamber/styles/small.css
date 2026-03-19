@@ -9,6 +9,14 @@ img  {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 700;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -69,7 +77,6 @@ header img {
     border-bottom: 1px solid #ddd;
     padding: 1.1rem 10px;
     color: #3d405b;
-    text-decoration: none;
 }
 
 .navigation a:hover {
@@ -88,6 +95,157 @@ main {
     padding: 16px;
     max-width: 1000px;
 }
+
+/* Home */
+
+.hero {
+    position: relative;
+    border-radius: 16px;
+    height: 567px;
+    /* Remember me download this image */
+    background-image: url(https://www.travelersuniverse.com/wp-content/uploads/2025/04/hiking_adventure_at_takao.jpg);
+    background-position: right;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    background-color: rgb(0 0 0 / .2);
+}
+
+.hero h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%);
+    font-size: 5rem;
+    color: #fff;
+}
+
+.hero a {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    z-index: 1;
+    transform: translate(-50%);
+    border-radius: 16px;
+    padding: 12px;
+    color: #fff;
+    background-color: #5c3d3f;
+    box-shadow: 0 0 40px #000;
+    white-space: nowrap;
+}
+
+.home {
+    display: grid;
+    gap: 16px;
+}
+
+.home h2 {
+    padding-top: 16px;
+    font-size: 2rem;
+}
+
+.home-card {
+    border-radius: 8px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.home-card h3 {
+    padding: 8px;
+    color: #fff;
+    background-color: #3d405b;
+}
+
+#container-events {
+    display: grid;
+    gap: 8px;
+}
+
+@media (min-width: 480px) {
+    #container-events {
+        font-size: 1.3rem;
+    }
+}
+
+#container-weather {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-transform: capitalize;
+}
+
+#container-events,
+#container-weather div,
+#container-forecast {
+    padding: 16px;
+}
+
+#container-weather div span,
+#container-forecast span {
+    font-weight: 700;
+}
+
+#container-forecast {
+    font-size: 1.50rem;
+}
+
+#businesses {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 24px;
+}
+
+.business {
+    display: grid;
+    border-radius: 16px;
+    color: #3d405b;
+    background-color: #eee;
+}
+
+.business h2,
+.business span {
+    text-align: center;
+}
+
+.business h2 {
+    padding-top: 8px;
+    font-size: 1.4rem;
+}
+
+.business > span {
+    border-bottom: 1px solid #000;
+}
+
+.business-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+}
+
+.business-container {
+    align-self: center;
+}
+
+.business-container a {
+    color: #3d405b;
+    overflow-wrap: anywhere;
+    text-decoration: underline;
+}
+
+.business-container span {
+    font-style: italic;
+}
+
+/* Directory */
 
 .menu {
     display: flex;
