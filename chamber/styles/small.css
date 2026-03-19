@@ -102,8 +102,7 @@ main {
     position: relative;
     border-radius: 16px;
     height: 567px;
-    /* Remember me download this image */
-    background-image: url(https://www.travelersuniverse.com/wp-content/uploads/2025/04/hiking_adventure_at_takao.jpg);
+    background-image: url(../images/hero.webp);
     background-position: right;
 }
 
@@ -227,12 +226,9 @@ main {
 .business-container {
     display: flex;
     flex-direction: column;
+    align-self: center;
     gap: 8px;
     padding: 12px;
-}
-
-.business-container {
-    align-self: center;
 }
 
 .business-container a {
