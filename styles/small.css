@@ -98,6 +98,10 @@ section img {
     text-align: center;
 }
 
+.courses-section button {
+    cursor: pointer;
+}
+
 #courses {
     display: grid;
     gap: 8px;
@@ -114,6 +118,7 @@ section img {
     padding: 8px;
     color: #fff;
     background-color: #3d405b;
+    cursor: pointer;
 }
 
 #courses div::before {
@@ -135,6 +140,29 @@ section img {
 #courses,
 .courses-section p {
     grid-column: 1 / -1;
+}
+
+#course-details {
+    border-radius: .25rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 3rem rgb(0 0 0 / 25%);
+}
+
+::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#course-details button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  cursor: pointer;
 }
 
 footer {

@@ -43,6 +43,10 @@
         flex: 1;
     }
 
+    .main-join {
+        flex-direction: row;
+    }
+
     footer {
         flex-direction: row;
         justify-content: space-between;

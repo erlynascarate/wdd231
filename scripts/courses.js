@@ -100,11 +100,16 @@ wdd.addEventListener("click", () => {
 
 const coursesContainer = document.querySelector("#courses")
 function renderCourses(courses) {
-    const view = courses.map((course) => (
-        `<div class="${course.completed ? "completed" : ""}">${course.subject} ${course.number}</div>`
-    )).join("")
+    coursesContainer.innerHTML = ""
 
-    coursesContainer.innerHTML = view
+    courses.forEach((course) => {
+        const courseCard = document.createElement("div")
+        courseCard.className = course.completed ? "completed" : ""
+        courseCard.textContent = `${course.subject} ${course.number}`
+        courseCard.addEventListener("click", () => displayCourseDetails(course))
+        
+        coursesContainer.appendChild(courseCard)
+    })
 }
 
 const totalCredits = document.querySelector("#totalCredits")
