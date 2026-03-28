@@ -15,4 +15,6 @@ info.innerHTML = `
     ${params.get("organization")}
     <strong>Membership Level:</strong>
     ${params.get("membership")}
+    <strong>Date Timestamp:</strong>
+    ${params.get("timestamp")}
 `
