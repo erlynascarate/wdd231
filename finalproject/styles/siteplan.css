@@ -1,0 +1,19 @@
+body {
+    font-family: "Inter", sans-serif;
+    color: #003748;
+    background-color: #f3faff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #003748;
+}
+
+footer {
+    background-color: #e6f6ff;
+}
