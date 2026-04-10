@@ -413,6 +413,7 @@ input[type="submit"] {
 }
 
 /* Thank you */
+
 .thankyou-main {
     display: flex;
     flex-direction: column;
@@ -428,6 +429,56 @@ input[type="submit"] {
     gap: 4px 20px;
     overflow-wrap: anywhere;
 }
+
+/* Discover */
+
+#last-visit {
+    margin-bottom: 16px;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #eee;
+}
+
+#places {
+    display: grid;
+    grid-template-areas:
+        "card-1"
+        "card-2"
+        "card-3"
+        "card-4"
+        "card-5"
+        "card-6"
+        "card-7"
+        "card-8";
+    gap: 16px;
+}
+
+#places div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fff;
+}
+
+#places div h2,
+#places div address {
+    text-align: center;
+}
+
+#places div img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+#places div address {
+    font-style: italic;
+}
+
+#places div button {
+    align-self: center;
+}
+
+/* Footer */
 
 footer {
     display: flex;

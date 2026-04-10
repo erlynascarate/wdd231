@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you | Tokyo Chamber of Commerce</title>
-    <meta name="description" content="">
+    <title>Discover | Tokyo Chamber of Commerce</title>
+    <meta property="og:title" content="Discover">
+    <meta property="og:description" content="Discover Tokyo business districts, cultural attractions, and member locations with local insights from the Tokyo Chamber of Commerce.">
+    <meta property="og:image" content="https://erlynascarate.github.io/wdd231/chamber/images/hero.webp">
+    <meta property="og:url" content="https://erlynascarate.github.io/wdd231/chamber/discover.html">
+    <meta name="description" content="Discover Tokyo business districts, cultural attractions, and member locations with local insights from the Tokyo Chamber of Commerce.">
     <meta name="author" content="Erlyn Ascarate">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/thankyou.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
     <script src="scripts/footer.js" defer></script>
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -31,18 +39,24 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li class="current"><a href="#">Discover</a></li>
             </ul>
             <button title="Change the contrast">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M324-111.5Q251-143 197-197t-85.5-127Q80-397 80-480t31.5-156Q143-709 197-763t127-85.5Q397-880 480-880t156 31.5Q709-817 763-763t85.5 127Q880-563 880-480t-31.5 156Q817-251 763-197t-127 85.5Q563-80 480-80t-156-31.5ZM520-163q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#1f1f1f">
+                    <path
+                        d="M324-111.5Q251-143 197-197t-85.5-127Q80-397 80-480t31.5-156Q143-709 197-763t127-85.5Q397-880 480-880t156 31.5Q709-817 763-763t85.5 127Q880-563 880-480t-31.5 156Q817-251 763-197t-127 85.5Q563-80 480-80t-156-31.5ZM520-163q119-15 199.5-104.5T800-480q0-123-80.5-212.5T520-797v634Z" />
+                </svg>
             </button>
         </nav>
     </header>
-    <main class="thankyou-main">
-        <p>Thank you for taking the time to fill out the form—we truly appreciate your input.</p>
-        <div class="info">
-
-        </div>
+    <main>
+        <p id="last-visit">
+            
+        </p>
+        <section id="places">
+            
+        </section>
     </main>
     <footer>
         <div>
@@ -69,4 +83,5 @@
         </div>
     </footer>
 </body>
+
 </html>

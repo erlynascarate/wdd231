@@ -1,0 +1,16 @@
+What This App Does
+This web application helps users discover activities based on their current mood. Whether you feel happy, stressed, or bored, the app suggests useful and enjoyable ideas to improve your day.
+
+How to Use It
+
+Select your mood using the available filter options.
+Browse the list of recommended activities.
+Click on an activity to see more details.
+Save your favorite activities to access them later.
+
+Benefits
+
+Helps you decide what to do when you feel bored or unmotivated.
+Encourages positive habits and productivity.
+Provides quick and simple ideas for different moods.
+Improves your daily routine in an easy way.

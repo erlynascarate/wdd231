@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Go for a walk",
+    "mood": "happy",
+    "duration": "30 min",
+    "category": "outdoor",
+    "description": "Take a walk in your neighborhood or at a park to enjoy fresh air and clear your mind.",
+    "tips": ["Wear comfortable shoes", "Bring water", "Try a new route"],
+    "image": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg"
+  },
+  {
+    "name": "Read a book",
+    "mood": "bored",
+    "duration": "1 hour",
+    "category": "indoor",
+    "description": "Choose a book you enjoy and spend some time reading to relax and stimulate your mind.",
+    "tips": ["Find a cozy spot", "Take notes of interesting parts", "Set a reading goal"],
+    "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg"
+  },
+  {
+    "name": "Listen to music",
+    "mood": "stressed",
+    "duration": "20 min",
+    "category": "relax",
+    "description": "Play your favorite playlist to help calm your body and mind.",
+    "tips": ["Use headphones", "Focus on vocals or instruments", "Try slow rhythms"],
+    "image": "https://images.pexels.com/photos/164853/pexels-photo-164853.jpeg"
+  },
+  {
+    "name": "Try a new recipe",
+    "mood": "happy",
+    "duration": "1 hour",
+    "category": "cooking",
+    "description": "Get creative in the kitchen and cook something you've never tried before.",
+    "tips": ["Read the recipe first", "Measure ingredients", "Have fun experimenting"],
+    "image": "https://images.pexels.com/photos/5938/food-dinner-spread-restaurant.jpg"
+  },
+  {
+    "name": "Meditate",
+    "mood": "stressed",
+    "duration": "15 min",
+    "category": "mindfulness",
+    "description": "Practice mindfulness to center your thoughts and reduce anxiety.",
+    "tips": ["Sit comfortably", "Focus on breathing", "Use guided audio"],
+    "image": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg"
+  },
+  {
+    "name": "Watch a movie",
+    "mood": "bored",
+    "duration": "2 hours",
+    "category": "entertainment",
+    "description": "Select a movie you haven’t watched and enjoy the story.",
+    "tips": ["Prepare snacks", "Dim the lights", "Pick your favorite genre"],
+    "image": "https://images.pexels.com/photos/799158/pexels-photo-799158.jpeg"
+  },
+  {
+    "name": "Exercise at home",
+    "mood": "happy",
+    "duration": "30 min",
+    "category": "fitness",
+    "description": "Do a quick workout routine to energize yourself and improve your mood.",
+    "tips": ["Warm up first", "Follow a video guide", "Drink water afterwards"],
+    "image": "https://images.pexels.com/photos/3763871/pexels-photo-3763871.jpeg"
+  },
+  {
+    "name": "Write in a journal",
+    "mood": "stressed",
+    "duration": "20 min",
+    "category": "reflection",
+    "description": "Put your thoughts on paper to process feelings and reduce stress.",
+    "tips": ["Write freely", "Focus on gratitude", "Review later"],
+    "image": "https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg"
+  },
+  {
+    "name": "Play a board game",
+    "mood": "happy",
+    "duration": "1 hour",
+    "category": "social",
+    "description": "Enjoy a board game with friends or family to connect and have fun.",
+    "tips": ["Explain rules clearly", "Keep score fair", "Laugh often"],
+    "image": "https://images.pexels.com/photos/209904/pexels-photo-209904.jpeg"
+  },
+  {
+    "name": "Do a puzzle",
+    "mood": "bored",
+    "duration": "45 min",
+    "category": "brain",
+    "description": "Challenge your mind with a puzzle or brain game.",
+    "tips": ["Start with edges", "Sort by color", "Take short breaks"],
+    "image": "https://images.pexels.com/photos/163064/puzzle-connection-hand-jigsaw-163064.jpeg"
+  },
+  {
+    "name": "Take photos",
+    "mood": "happy",
+    "duration": "1 hour",
+    "category": "creative",
+    "description": "Capture the world around you and explore your creative eye.",
+    "tips": ["Look for unique angles", "Use natural light", "Try different subjects"],
+    "image": "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg"
+  },
+  {
+    "name": "Practice yoga",
+    "mood": "relaxed",
+    "duration": "30 min",
+    "category": "fitness",
+    "description": "Do a yoga routine to stretch your body and calm your mind.",
+    "tips": ["Use a mat", "Breathe deeply", "Follow online guidance"],
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "name": "Learn a new language",
+    "mood": "bored",
+    "duration": "1 hour",
+    "category": "learning",
+    "description": "Use an app or book to practice learning a new language.",
+    "tips": ["Practice daily", "Use flashcards", "Repeat aloud"],
+    "image": "https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg"
+  },
+  {
+    "name": "Call a friend",
+    "mood": "happy",
+    "duration": "15 min",
+    "category": "social",
+    "description": "Reach out to a friend for a quick chat and connection.",
+    "tips": ["Smile while talking", "Ask how they are", "Share good news"],
+    "image": "https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg"
+  },
+  {
+    "name": "Watch a documentary",
+    "mood": "bored",
+    "duration": "1.5 hours",
+    "category": "learning",
+    "description": "Learn something new by watching an interesting documentary.",
+    "tips": ["Take notes", "Discuss with someone", "Pick a topic you like"],
+    "image": "https://images.pexels.com/photos/196647/pexels-photo-196647.jpeg"
+  },
+  {
+    "name": "Go for a bike ride",
+    "mood": "happy",
+    "duration": "45 min",
+    "category": "outdoor",
+    "description": "Ride your bike to explore your surroundings and feel the breeze.",
+    "tips": ["Wear a helmet", "Check tire pressure", "Bring water"],
+    "image": "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg"
+  },
+  {
+    "name": "Do gardening",
+    "mood": "relaxed",
+    "duration": "1 hour",
+    "category": "outdoor",
+    "description": "Take care of plants and enjoy the peace of nature.",
+    "tips": ["Use gloves", "Water properly", "Trim dead leaves"],
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+  },
+  {
+    "name": "Color paint",
+    "mood": "creative",
+    "duration": "1 hour",
+    "category": "creative",
+    "description": "Use paint or colored pencils to create something artistic.",
+    "tips": ["Experiment with colors", "Use different brushes", "Don’t fear mistakes"],
+    "image": "https://images.pexels.com/photos/1320888/pexels-photo-1320888.jpeg"
+  },
+  {
+    "name": "Practice deep breathing",
+    "mood": "stressed",
+    "duration": "10 min",
+    "category": "mindfulness",
+    "description": "Do breathing exercises to help calm your nervous system.",
+    "tips": ["Inhale slowly", "Count to four", "Exhale longer"],
+    "image": "https://images.pexels.com/photos/3395993/pexels-photo-3395993.jpeg"
+  },
+  {
+    "name": "Organize your desk",
+    "mood": "bored",
+    "duration": "30 min",
+    "category": "productive",
+    "description": "Clean and organize your workspace for better focus.",
+    "tips": ["Throw away trash", "Sort by category", "Use good lighting"],
+    "image": "https://images.pexels.com/photos/584939/pexels-photo-584939.jpeg"
+  },
+  {
+    "name": "Go for a run",
+    "mood": "happy",
+    "duration": "40 min",
+    "category": "fitness",
+    "description": "Run outside to boost your heart rate and lift your mood.",
+    "tips": ["Stretch first", "Pick a route", "Stay hydrated"],
+    "image": "https://images.pexels.com/photos/703014/pexels-photo-703014.jpeg"
+  },
+  {
+    "name": "Try dance workout",
+    "mood": "happy",
+    "duration": "30 min",
+    "category": "fitness",
+    "description": "Move to music and get a fun energizing workout.",
+    "tips": ["Wear comfy clothes", "Follow a video", "Smile while dancing"],
+    "image": "https://images.pexels.com/photos/1190296/pexels-photo-1190296.jpeg"
+  },
+  {
+    "name": "Solve online puzzles",
+    "mood": "bored",
+    "duration": "30 min",
+    "category": "brain",
+    "description": "Play puzzles on your phone or computer to keep your mind active.",
+    "tips": ["Start easy", "Take breaks", "Challenge friends"],
+    "image": "https://images.pexels.com/photos/45170/pexels-photo-45170.jpeg"
+  },
+  {
+    "name": "Listen to a podcast",
+    "mood": "relaxed",
+    "duration": "45 min",
+    "category": "learning",
+    "description": "Find a podcast you like and listen while relaxing.",
+    "tips": ["Choose a topic you enjoy", "Take notes", "Relax in comfy space"],
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "name": "Write a letter",
+    "mood": "creative",
+    "duration": "25 min",
+    "category": "reflection",
+    "description": "Write a letter to someone you care about.",
+    "tips": ["Use nice paper", "Express feelings honestly", "Add drawings"],
+    "image": "https://images.pexels.com/photos/670769/pexels-photo-670769.jpeg"
+  },
+  {
+    "name": "Take a relaxing bath",
+    "mood": "stressed",
+    "duration": "30 min",
+    "category": "relax",
+    "description": "Have a warm bath to unwind and reduce tension.",
+    "tips": ["Use bath salts", "Dim lights", "Play soft music"],
+    "image": "https://images.pexels.com/photos/3760269/pexels-photo-3760269.jpeg"
+  },
+  {
+    "name": "Learn a skill online",
+    "mood": "productive",
+    "duration": "1 hour",
+    "category": "learning",
+    "description": "Take an online lesson to learn something new.",
+    "tips": ["Find credible sources", "Set goals", "Practice daily"],
+    "image": "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg"
+  },
+  {
+    "name": "Watch the sunrise",
+    "mood": "relaxed",
+    "duration": "20 min",
+    "category": "outdoor",
+    "description": "Enjoy the peace and beauty of sunrise.",
+    "tips": ["Wake up early", "Bring a warm drink", "Sit quietly"],
+    "image": "https://images.pexels.com/photos/46253/sunset-sky-sun-clouds-46253.jpeg"
+  },
+  {
+    "name": "Draw or sketch",
+    "mood": "creative",
+    "duration": "45 min",
+    "category": "creative",
+    "description": "Draw something around you or from imagination.",
+    "tips": ["Use different pencils", "Try shading", "Add colors"],
+    "image": "https://images.pexels.com/photos/965259/pexels-photo-965259.jpeg"
+  },
+  {
+    "name": "Do stretching exercises",
+    "mood": "stressed",
+    "duration": "15 min",
+    "category": "fitness",
+    "description": "Stretch your muscles to relieve tension and improve flexibility.",
+    "tips": ["Warm up first", "Stretch gently", "Hold each stretch"],
+    "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg"
+  },
+  {
+    "name": "Explore a new hobby",
+    "mood": "happy",
+    "duration": "1 hour",
+    "category": "creative",
+    "description": "Try a hobby you’ve never done before.",
+    "tips": ["Research first", "Gather materials", "Enjoy the process"],
+    "image": "https://images.pexels.com/photos/414103/pexels-photo-414103.jpeg"
+  },
+  {
+    "name": "Do a digital detox",
+    "mood": "stressed",
+    "duration": "1 hour",
+    "category": "mindfulness",
+    "description": "Turn off screens and relax without devices.",
+    "tips": ["Put phone away", "Walk outside", "Read or meditate"],
+    "image": "https://images.pexels.com/photos/2252287/pexels-photo-2252287.jpeg"
+  },
+  {
+    "name": "Play a musical instrument",
+    "mood": "happy",
+    "duration": "45 min",
+    "category": "creative",
+    "description": "Practice your favorite instrument or learn a new one.",
+    "tips": ["Warm up your fingers", "Use a tutorial", "Play slowly"],
+    "image": "https://images.pexels.com/photos/164853/pexels-photo-164853.jpeg"
+  },
+  {
+    "name": "Do a charity task",
+    "mood": "productive",
+    "duration": "1 hour",
+    "category": "social",
+    "description": "Help someone or volunteer your time for a good cause.",
+    "tips": ["Choose something meaningful", "Do it with a friend", "Reflect afterward"],
+    "image": "https://images.pexels.com/photos/3771834/pexels-photo-3771834.jpeg"
+  },
+  {
+    "name": "Have a picnic",
+    "mood": "happy",
+    "duration": "1.5 hours",
+    "category": "outdoor",
+    "description": "Enjoy food outside with friends or family.",
+    "tips": ["Pack easy foods", "Bring a blanket", "Stay hydrated"],
+    "image": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg"
+  },
+  {
+    "name": "Practice gratitude",
+    "mood": "relaxed",
+    "duration": "15 min",
+    "category": "reflection",
+    "description": "Write down things you are grateful for today.",
+    "tips": ["Be specific", "Repeat daily", "Think deeply"],
+    "image": "https://images.pexels.com/photos/623814/pexels-photo-623814.jpeg"
+  },
+  {
+    "name": "Try stretching outdoors",
+    "mood": "relaxed",
+    "duration": "20 min",
+    "category": "fitness",
+    "description": "Stretch your body in the fresh air for peace and calm.",
+    "tips": ["Find a quiet spot", "Stretch slowly", "Breathe deeply"],
+    "image": "https://images.pexels.com/photos/4465942/pexels-photo-4465942.jpeg"
+  }
+]
