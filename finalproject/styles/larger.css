@@ -1,0 +1,39 @@
+@media (min-width: 700px) {
+    #modalContent {
+        flex-direction: row;
+    }
+
+    #modalContent img {
+        width: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    /* Footer */
+
+    footer {
+        flex-direction: row;
+    }
+}
