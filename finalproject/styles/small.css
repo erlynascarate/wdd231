@@ -219,6 +219,18 @@ section {
     cursor: pointer;
 }
 
+.favorite svg:last-child {
+    display: none;
+}
+
+.favorite.added svg:first-child {
+    display: none;
+}
+
+.favorite.added svg:last-child {
+    display: inline;
+}
+
 .activity-desc {
     padding: 16px;
 }
